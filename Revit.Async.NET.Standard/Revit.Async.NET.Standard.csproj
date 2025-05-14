@@ -17,14 +17,12 @@
 	</Target>
 
 	<ItemGroup>
-		<Reference Include="RevitAPI">
-			<HintPath>C:\Program Files\Autodesk\Revit Preview Release\RevitAPI.dll</HintPath>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="RevitAPIUI">
-			<HintPath>C:\Program Files\Autodesk\Revit Preview Release\RevitAPIUI.dll</HintPath>
-			<Private>False</Private>
-		</Reference>
+	  <Reference Include="RevitAPI">
+	    <HintPath>..\refs\Revit2024\RevitAPI.dll</HintPath>
+	  </Reference>
+	  <Reference Include="RevitAPIUI">
+	    <HintPath>..\refs\Revit2024\RevitAPIUI.dll</HintPath>
+	  </Reference>
 	</ItemGroup>
 
 </Project>
