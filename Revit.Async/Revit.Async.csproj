@@ -86,9 +86,8 @@
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="RevitAPI, Version=16.0.0.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\Revit-2016x64.Base.1.0.0\lib\net45\RevitAPI.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="RevitAPI">
+      <HintPath>..\refs\Revit2021\RevitAPI.dll</HintPath>
     </Reference>
     <Reference Include="RevitAPIIFC, Version=16.0.0.0, Culture=neutral, processorArchitecture=AMD64">
       <HintPath>..\packages\Revit-2016x64.Base.1.0.0\lib\net45\RevitAPIIFC.dll</HintPath>
@@ -98,9 +97,8 @@
       <HintPath>..\packages\Revit-2016x64.Base.1.0.0\lib\net45\RevitAPIMacros.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="RevitAPIUI, Version=16.0.0.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\Revit-2016x64.Base.1.0.0\lib\net45\RevitAPIUI.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="RevitAPIUI">
+      <HintPath>..\refs\Revit2021\RevitAPIUI.dll</HintPath>
     </Reference>
     <Reference Include="RevitAPIUIMacros, Version=16.0.0.0, Culture=neutral, processorArchitecture=AMD64">
       <HintPath>..\packages\Revit-2016x64.Base.1.0.0\lib\net45\RevitAPIUIMacros.dll</HintPath>
